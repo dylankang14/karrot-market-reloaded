@@ -9,6 +9,7 @@ import { error } from "console";
 const InitialState = {
 	token: false,
 	error: undefined,
+	phone: "",
 };
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
 						max={999999}
 						placeholder="Verify sms number"
 						required
+						errors={state.error?.formErrors}
 					/>
 				) : (
 					<Input

@@ -6,7 +6,7 @@ export default function SMSLogin() {
 		<>
 			<div className="w-full h-px bg-neutral-300" />
 			<div className="flex flex-col gap-3 w-full items-center">
-				<Link href="/create-account" className="btn-primary h-10 flex items-center justify-center gap-3">
+				<Link href="/github/start" className="btn-primary h-10 flex items-center justify-center gap-3">
 					<div className="size-6">
 						<svg className="size-6" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path

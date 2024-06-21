@@ -12,6 +12,9 @@
 	.btn-primary {
 		@apply w-full bg-orange-500 text-white text-center font-medium hover:bg-orange-400 transition-colors rounded-md;
 	}
+	.btn-warning {
+		@apply w-full bg-red-500 text-white text-center font-medium hover:bg-red-400 transition-colors rounded-md;
+	}
 }
 
 @layer utilities {
