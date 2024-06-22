@@ -42,10 +42,10 @@ export default async function ProductDetail({ params }: { params: { id: string }
 	return (
 		<div className="flex flex-col gap-4">
 			<div className="relative aspect-square">
-				<Image fill src={product.photo} alt={product.title} />
+				<Image className="object-cover" fill src={product.photo} alt={product.title} />
 			</div>
 			<div className="flex items-center gap-3 px-4">
-				<div className="size-10 relative bg-neutral-600 rounded-full p-1">
+				<div className="size-10 relative bg-neutral-600 rounded-full p-1 overflow-hidden">
 					{product.user.avatar === null ? (
 						<UserIcon />
 					) : (

@@ -14,7 +14,7 @@ export default function ListProduct({ id, title, price, photo, created_at }: Lis
 	return (
 		<Link href={`/product/${id}`} className="text-white flex gap-3">
 			<div className="relative size-28 rounded-md overflow-hidden">
-				<Image src={photo} fill alt={title} />
+				<Image src={photo} fill alt={title} className="object-cover" />
 			</div>
 			<div className="flex flex-col gap-2">
 				<div className="text-lg font-semibold">{title}</div>

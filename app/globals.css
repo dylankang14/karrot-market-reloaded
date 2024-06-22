@@ -10,10 +10,10 @@
 
 @layer components {
 	.btn-primary {
-		@apply w-full bg-orange-500 text-white text-center font-medium hover:bg-orange-400 transition-colors rounded-md;
+		@apply w-full bg-orange-500 text-white text-center font-medium hover:bg-orange-400 transition-colors rounded-md disabled:bg-neutral-500 disabled:text-neutral-300 disabled:cursor-not-allowed;
 	}
 	.btn-warning {
-		@apply w-full bg-red-500 text-white text-center font-medium hover:bg-red-400 transition-colors rounded-md;
+		@apply w-full bg-red-500 text-white text-center font-medium hover:bg-red-400 transition-colors rounded-md disabled:bg-neutral-500 disabled:text-neutral-300 disabled:cursor-not-allowed;
 	}
 }
 
